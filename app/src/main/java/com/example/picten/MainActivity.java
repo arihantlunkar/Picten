@@ -1,16 +1,11 @@
 package com.example.picten;
 
-import android.graphics.Color;
-import android.graphics.PorterDuff;
 import android.os.Bundle;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
+
 import com.google.android.material.tabs.TabLayout;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
+
 import com.example.picten.ui.main.SectionsPagerAdapter;
 
 import static android.graphics.PorterDuff.Mode.SRC_IN;
@@ -40,20 +35,21 @@ public class MainActivity extends AppCompatActivity {
             tabs.getTabAt(i).setIcon(mTabIcons[i]);
         }
 
-        tabs.setTabRippleColorResource(R.color.colorOnTouch);
+        tabs.setTabRippleColorResource(R.color.colorPrimary);
 
-        tabs.getTabAt(0).getIcon().setColorFilter(getResources().getColor(R.color.colorAccent), SRC_IN);
+        tabs.getTabAt(0).getIcon().setColorFilter(getResources().getColor(R.color.colorOnSelection), SRC_IN);
+        tabs.getTabAt(1).getIcon().setColorFilter(getResources().getColor(R.color.colorOnDeselection), SRC_IN);
 
         tabs.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
-                tab.getIcon().setColorFilter(getResources().getColor(R.color.colorAccent), SRC_IN);
+                tab.getIcon().setColorFilter(getResources().getColor(R.color.colorOnSelection), SRC_IN);
 
             }
 
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
-                tab.getIcon().setColorFilter(Color.WHITE, SRC_IN);
+                tab.getIcon().setColorFilter(getResources().getColor(R.color.colorOnDeselection), SRC_IN);
             }
 
             @Override

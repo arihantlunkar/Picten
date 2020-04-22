@@ -11,24 +11,26 @@
         android:id="@+id/tabs"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
+        android:background="@color/colorPrimary"
         app:tabMaxWidth="0dp"
         app:tabGravity="fill"
         app:tabMode="fixed"
+
         app:layout_constraintBottom_toTopOf="@+id/view_pager"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:tabIndicatorColor="?attr/colorAccent"
+        app:tabIndicatorColor="@color/colorOnSelection"
         app:tabIndicatorHeight="@dimen/tab_indicator_height"
-        app:tabSelectedTextColor="?attr/colorAccent"
+        app:tabSelectedTextColor="@color/colorOnSelection"
         app:tabTextAppearance="@style/TabTextAppearance"
-        app:tabTextColor="@android:color/white" />
+        app:tabTextColor="@color/colorOnDeselection" />
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/view_pager"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:background="@color/colorViewPagerBackground"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

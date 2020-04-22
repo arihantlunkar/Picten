@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#000000</color>
-    <color name="colorPrimaryDark">#000000</color>
-    <color name="colorAccent">#c02c3a</color>
-    <color name="colorOnTouch">#000000</color>
+    <color name="colorOnSelection">#FFFFFF</color>
+    <color name="colorOnDeselection">#5A6060</color>
+    <color name="colorViewPagerBackground">#ccc</color>
 </resources>
