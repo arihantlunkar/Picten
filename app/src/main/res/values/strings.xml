@@ -1,5 +1,11 @@
 <resources>
-    <string name="app_name">Picten</string>
-    <string name="tab_text_1">Movies</string>
-    <string name="tab_text_2">TV Shows</string>
+    <string name="app_name_text">Picten</string>
+    <string name="movies_text">Movies</string>
+    <string name="tv_shows_text">TV Shows</string>
+    <string name="search_text">Search</string>
+    <string name="my_watchlist_text">My List</string>
+    <string name="play_on_netflix_text">Play On Netflix</string>
+    <string name="play_on_amazon_text">Play On Amazon</string>
+    <string name="play_on_hotstar_text">Play On Hotstar</string>
+    <string name="share_text">Share</string>
 </resources>

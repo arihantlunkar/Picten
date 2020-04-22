@@ -3,5 +3,9 @@
     <color name="colorPrimary">#000000</color>
     <color name="colorOnSelection">#FFFFFF</color>
     <color name="colorOnDeselection">#5A6060</color>
-    <color name="colorViewPagerBackground">#ccc</color>
+    <color name="colorViewPagerBackground">#e4e6e8</color>
+    <color name="colorControlHighlight">#cccccc</color>
+    <color name="colorNetflixLogo">#E30914</color>
+    <color name="colorAmazonLogo">#3DAAE0</color>
+    <color name="colorHotstarLogo">#C1CC78</color>
 </resources>
