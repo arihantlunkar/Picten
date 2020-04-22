@@ -13,8 +13,8 @@ import static android.graphics.PorterDuff.Mode.SRC_IN;
 public class MainActivity extends AppCompatActivity {
 
     private int[] mTabIcons = {
-        R.drawable.ic_movie_white_24dp,
-        R.drawable.ic_tv_white_24dp
+        R.drawable.ic_movie_24dp,
+        R.drawable.ic_tv_24dp
     };
 
     @Override
