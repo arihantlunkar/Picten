@@ -19,11 +19,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:tabIndicatorColor="@color/colorTabSelection"
+        app:tabIndicatorColor="@color/colorTabIndicator"
         app:tabIndicatorHeight="@dimen/tab_indicator_height"
-        app:tabSelectedTextColor="@color/colorTabSelection"
-        app:tabTextAppearance="@style/MyCustomTextAppearance"
-        app:tabTextColor="@color/colorTabUnSelection" />
+        app:tabSelectedTextColor="@color/colorTabSelectedText"
+        app:tabTextAppearance="@style/TabTextAppearance"
+        app:tabTextColor="@color/colorTabText" />
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/view_pager"
@@ -40,18 +40,18 @@
         android:layout_width="0dp"
         android:layout_height="1dp"
         android:background="@color/colorGuideLine"
-        app:layout_constraintBottom_toTopOf="@+id/add_button"
+        app:layout_constraintBottom_toTopOf="@+id/playlist_add_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view_pager" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/add_button"
+        android:id="@+id/playlist_add_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/my_watchlist_text"
-        android:drawableTop="@drawable/ic_add_24dp"
-        style="@style/MyCustomButton"
+        android:drawableTop="@drawable/ic_playlist_add_24dp"
+        style="@style/BottomNavigationButtonAppearance"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/share_button"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,10 +63,10 @@
         android:layout_height="wrap_content"
         android:text="@string/share_text"
         android:drawableTop="@drawable/ic_share_24dp"
-        style="@style/MyCustomButton"
+        style="@style/BottomNavigationButtonAppearance"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/search_button"
-        app:layout_constraintStart_toEndOf="@id/add_button"
+        app:layout_constraintStart_toEndOf="@id/playlist_add_button"
         app:layout_constraintTop_toBottomOf="@+id/guideline" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -75,7 +75,7 @@
         android:layout_height="wrap_content"
         android:text="@string/search_text"
         android:drawableTop="@drawable/ic_search_24dp"
-        style="@style/MyCustomButton"
+        style="@style/BottomNavigationButtonAppearance"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/share_button"

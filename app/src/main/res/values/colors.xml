@@ -1,18 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#000000</color>
-    <color name="colorPrimaryDark">#000000</color>
-    <color name="colorBottomNavigationBackground">#FFFFFF</color>
-    <color name="colorBottomNavigation">#000000</color>
-    <color name="colorBottomNavigationOnTouch">#cccccc</color>
-    <color name="colorVerticalViewPagerBackground">#FFFFFF</color>
-    <color name="colorBehindVerticalViewPager">#000000</color>
+    <color name="colorSecondary">#FFFFFF</color>
+    <color name="colorTertiary">#CCCCCC</color>
+
+    <color name="colorStatusBar">@color/colorPrimary</color>
+
+
+    <color name="colorTabBackground">@color/colorPrimary</color>
+    <color name="colorTabOnTouch">@color/colorPrimary</color>
+    <color name="colorOnTabSelected">@color/colorSecondary</color>
+    <color name="colorOnTabUnselected">#5A6060</color>
+    <color name="colorTabIndicator">@color/colorSecondary</color>
+    <color name="colorTabSelectedText">@color/colorSecondary</color>
+    <color name="colorTabText">#5A6060</color>
+
+    <color name="colorVerticalViewPagerBackground">@color/colorSecondary</color>
+    <color name="colorBehindVerticalViewPager">@color/colorPrimary</color>
+
     <color name="colorGuideLine">#e4e6e8</color>
-    <color name="colorTabBackground">#000000</color>
-    <color name="colorTabOnTouch">#000000</color>
-    <color name="colorTabSelection">#FFFFFF</color>
-    <color name="colorTabUnSelection">#5A6060</color>
-    <color name="colorNetflixLogo">#E30914</color>
+
+    <color name="colorMovieName">@color/colorSecondary</color>
+
+    <color name="colorBottomNavigationButtonIcon">@color/colorPrimary</color>
+    <color name="colorBottomNavigationButtonBackground">@color/colorSecondary</color>
+    <color name="colorBottomNavigationOnTouch">@color/colorTertiary</color>
+    <color name="colorBottomNavigationButtonText">@color/colorPrimary</color>
+
+
+    <!--color name="colorNetflixLogo">#E30914</color>
     <color name="colorAmazonLogo">#3DAAE0</color>
-    <color name="colorHotstarLogo">#C1CC78</color>
+    <color name="colorHotstarLogo">#C1CC78</color-->
 </resources>

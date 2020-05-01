@@ -36,19 +36,19 @@ public class MainActivity extends AppCompatActivity {
 
         tabs.setTabRippleColorResource(R.color.colorTabOnTouch);
 
-        tabs.getTabAt(0).getIcon().setColorFilter(getResources().getColor(R.color.colorTabSelection), SRC_IN);
-        tabs.getTabAt(1).getIcon().setColorFilter(getResources().getColor(R.color.colorTabUnSelection), SRC_IN);
+        tabs.getTabAt(0).getIcon().setColorFilter(getResources().getColor(R.color.colorOnTabSelected), SRC_IN);
+        tabs.getTabAt(1).getIcon().setColorFilter(getResources().getColor(R.color.colorOnTabUnselected), SRC_IN);
 
         tabs.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
-                tab.getIcon().setColorFilter(getResources().getColor(R.color.colorTabSelection), SRC_IN);
+                tab.getIcon().setColorFilter(getResources().getColor(R.color.colorOnTabSelected), SRC_IN);
 
             }
 
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
-                tab.getIcon().setColorFilter(getResources().getColor(R.color.colorTabUnSelection), SRC_IN);
+                tab.getIcon().setColorFilter(getResources().getColor(R.color.colorOnTabUnselected), SRC_IN);
             }
 
             @Override

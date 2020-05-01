@@ -2,24 +2,30 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
     </style>
 
-    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+    <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
         <item name="textAllCaps">false</item>
-        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textSize">@dimen/tab_text_size</item>
     </style>
 
-    <style name="MyCustomButton" parent="Widget.AppCompat.Button.Borderless.Colored">
-        <item name="colorButtonNormal">@color/colorBottomNavigation</item>
+    <style name="BottomNavigationButtonAppearance" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="colorButtonNormal">@color/colorBottomNavigationButtonIcon</item>
         <item name="colorControlHighlight">@color/colorBottomNavigationOnTouch</item>
-        <item name="android:textColor">@color/colorBottomNavigation</item>
-        <item name="android:textAppearance">@style/MyCustomTextAppearance</item>
-        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/colorBottomNavigationButtonText</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/bottom_navigation_button_text_size</item>
+        <item name="android:padding">@dimen/navigation_bottom_button_padding</item>
         <item name="android:foreground">?attr/selectableItemBackground</item>
-        <item name="android:background">@color/colorBottomNavigationBackground</item>
+        <item name="android:background">@color/colorBottomNavigationButtonBackground</item>
+    </style>
+
+    <style name="MovieNameTextAppearance">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">@dimen/movie_name_text_size</item>
+        <item name="android:textColor">@color/colorMovieName</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
 </resources>
