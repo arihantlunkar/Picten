@@ -11,7 +11,7 @@
         android:id="@+id/tabs"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
+        android:background="@color/colorTabBackground"
         app:tabMaxWidth="0dp"
         app:tabGravity="fill"
         app:tabMode="fixed"
@@ -19,11 +19,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:tabIndicatorColor="@color/colorOnSelection"
+        app:tabIndicatorColor="@color/colorTabSelection"
         app:tabIndicatorHeight="@dimen/tab_indicator_height"
-        app:tabSelectedTextColor="@color/colorOnSelection"
+        app:tabSelectedTextColor="@color/colorTabSelection"
         app:tabTextAppearance="@style/MyCustomTextAppearance"
-        app:tabTextColor="@color/colorOnDeselection" />
+        app:tabTextColor="@color/colorTabUnSelection" />
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/view_pager"
@@ -33,14 +33,13 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tabs">
-    </androidx.viewpager.widget.ViewPager>
+        app:layout_constraintTop_toBottomOf="@+id/tabs" />
 
     <View
         android:id="@+id/guideline"
         android:layout_width="0dp"
         android:layout_height="1dp"
-        android:background="@color/colorControlHighlight"
+        android:background="@color/colorGuideLine"
         app:layout_constraintBottom_toTopOf="@+id/add_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

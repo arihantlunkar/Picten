@@ -4,7 +4,7 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
     </style>
 
     <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
@@ -13,31 +13,13 @@
     </style>
 
     <style name="MyCustomButton" parent="Widget.AppCompat.Button.Borderless.Colored">
-        <item name="colorButtonNormal">@color/colorViewPagerBackground</item>
-        <item name="colorControlHighlight">@color/colorControlHighlight</item>
-        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="colorButtonNormal">@color/colorBottomNavigation</item>
+        <item name="colorControlHighlight">@color/colorBottomNavigationOnTouch</item>
+        <item name="android:textColor">@color/colorBottomNavigation</item>
         <item name="android:textAppearance">@style/MyCustomTextAppearance</item>
         <item name="android:padding">8dp</item>
         <item name="android:foreground">?attr/selectableItemBackground</item>
-        <item name="android:background">@color/colorViewPagerBackground</item>
-    </style>
-
-    <style name="MyCustomNetflixPlayButton" parent="MyCustomButton">
-        <item name="colorButtonNormal">@color/colorNetflixLogo</item>
-        <item name="android:background">@color/colorNetflixLogo</item>
-        <item name="android:textColor">@color/colorOnSelection</item>
-    </style>
-
-    <style name="MyCustomAmazonPlayButton" parent="MyCustomButton">
-        <item name="colorButtonNormal">@color/colorAmazonLogo</item>
-        <item name="android:background">@color/colorAmazonLogo</item>
-        <item name="android:textColor">@color/colorOnSelection</item>
-    </style>
-
-    <style name="MyCustomHotstarPlayButton" parent="MyCustomButton">
-        <item name="colorButtonNormal">@color/colorHotstarLogo</item>
-        <item name="android:background">@color/colorHotstarLogo</item>
-        <item name="android:textColor">@color/colorOnSelection</item>
+        <item name="android:background">@color/colorBottomNavigationBackground</item>
     </style>
 
 </resources>

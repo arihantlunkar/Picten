@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#000000</color>
-    <color name="colorOnSelection">#FFFFFF</color>
-    <color name="colorOnDeselection">#5A6060</color>
-    <color name="colorViewPagerBackground">#e4e6e8</color>
-    <color name="colorControlHighlight">#cccccc</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorBottomNavigationBackground">#FFFFFF</color>
+    <color name="colorBottomNavigation">#000000</color>
+    <color name="colorBottomNavigationOnTouch">#cccccc</color>
+    <color name="colorVerticalViewPagerBackground">#FFFFFF</color>
+    <color name="colorBehindVerticalViewPager">#000000</color>
+    <color name="colorGuideLine">#e4e6e8</color>
+    <color name="colorTabBackground">#000000</color>
+    <color name="colorTabOnTouch">#000000</color>
+    <color name="colorTabSelection">#FFFFFF</color>
+    <color name="colorTabUnSelection">#5A6060</color>
     <color name="colorNetflixLogo">#E30914</color>
     <color name="colorAmazonLogo">#3DAAE0</color>
     <color name="colorHotstarLogo">#C1CC78</color>
