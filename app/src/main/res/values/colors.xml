@@ -21,6 +21,10 @@
     <color name="colorGuideLine">#e4e6e8</color>
 
     <color name="colorMovieName">@color/colorSecondary</color>
+    <color name="colorYearOfRelease">@color/colorTertiary</color>
+    <color name="colorGenre">@color/colorSecondary</color>
+    <color name="colorGenreBackground">#3578E5</color>
+    <color name="colorDescription">@color/colorPrimary</color>
 
     <color name="colorBottomNavigationButtonIcon">@color/colorPrimary</color>
     <color name="colorBottomNavigationButtonBackground">@color/colorSecondary</color>
