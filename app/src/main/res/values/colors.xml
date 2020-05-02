@@ -22,9 +22,12 @@
 
     <color name="colorMovieName">@color/colorSecondary</color>
     <color name="colorYearOfRelease">@color/colorTertiary</color>
-    <color name="colorGenre">@color/colorSecondary</color>
-    <color name="colorGenreBackground">#3578E5</color>
+    <color name="colorGenre">@color/colorPrimary</color>
+    <color name="colorGenreBackground">@color/colorTertiary</color>
     <color name="colorDescription">@color/colorPrimary</color>
+    <color name="colorWatchMovieButton">#3578E5</color>
+    <color name="colorWatchMovieButtonOnTouch">@color/colorSecondary</color>
+    <color name="colorWatchMovieButtonText">@color/colorSecondary</color>
 
     <color name="colorBottomNavigationButtonIcon">@color/colorPrimary</color>
     <color name="colorBottomNavigationButtonBackground">@color/colorSecondary</color>
