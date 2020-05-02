@@ -10,7 +10,7 @@
     <string name="play_on_hotstar_text">Play On Hotstar</string>
     <string name="share_text">Share</string>
     <string name="movie_title_text">Christian Bale is first non-American actor to play Batman</string>
-    <string name="movie_description_text">After Gordon, Dent and Batman begin an assault on Gotham\'s organised crime, the mobs hire the Joker, a psychopathic criminal mastermind who wants to bring all the heroes down to his level.</string>
+    <string name="movie_description_text">After Gordon, Dent and Batman begin an assault on Gotham\'s organised crime, the mobs hire the Joker, a psychopathic criminal mastermind who wants to bring all the heroes down to his level.\n\n<b>Release Year :</b> 2008\n<b>Director :</b> Christopher Nolan\n<b>Starring :</b> Christian Bale, Michael Caine, Heath Ledger, Gary Oldman\n<b>IMDb Rating :</b> 9\n<b>Rotten Tomatoes :</b> 94%</string>
     <string name="the_dark_knight">The Dark Knight</string>
     <string name="action">Action</string>
     <string name="adventure">Adventure</string>

@@ -19,6 +19,7 @@
     <color name="colorBehindVerticalViewPager">@color/colorPrimary</color>
 
     <color name="colorGuideLine">#e4e6e8</color>
+    <color name="colorGuideLineCardView">#80E4E6E8</color>
 
     <color name="colorMovieName">@color/colorSecondary</color>
     <color name="colorYearOfRelease">@color/colorTertiary</color>
